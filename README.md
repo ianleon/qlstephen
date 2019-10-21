@@ -17,7 +17,7 @@ QLStephen is a QuickLook plugin that lets you view plain text files without a fi
 - Required: Xcode 
 
 ```sh
-git clone git@github.com:ianleon/QLCataline.git 
+git clone git@github.com:ianleon/qlstephen.git
 cd QLCataline/QuickLookStephenProject
 xcodebuild -scheme QuickLookStephen build
 ```
