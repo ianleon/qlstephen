@@ -12,52 +12,15 @@ QLStephen is a QuickLook plugin that lets you view plain text files without a fi
     etc...
 
 
-## Installation
+## Build / Installation
 
-### Homebrew
+- Required: Xcode 
 
-    brew cask install qlstephen
-    
-## MacPorts
-    port install qlstephen
-
-### Pre-compiled
-
-* [Download the latest version of QuickLookStephen](https://github.com/whomwah/qlstephen/releases)
-* Unzip
-* Copy the file into `/Library/QuickLook` or `~/Library/QuickLook`
-  (You can create the `QuickLook` folder if it doesn’t exist)
-
-
-### Manually Compiled
-
-Compiling the project yourself? The build process will copy the file into ~/Library/QuickLook.
-
-
-## Settings
-
-### Maximum file size
-
-To keep quickview fast the priview is limited in its number of shown bytes.
-The default value is 100kB. You can change this using the shell to set your own max size.
-
-	defaults write com.whomwah.quicklookstephen maxFileSize 102400
-
-
-## Trouble?
-
-If you’ve installed the plugin, but don’t see any changes:
-
-- Make sure you are editing (a) the correct plist of (b) the correct bundle.
-  (For example, you might have two `QLStephen` plugins. It’s possible the plugin in
-   another directory—perhaps `/Library/QuickLook/`—is what is being read.)
-- Run `qlmanage -r` in the Terminal. (This will restart QuickLook, which reloads all plugins.)
-
-
-## Why “QLStephen”?
-
-Because I was listening to [Adam and Joe](http://www.bbc.co.uk/blogs/adamandjoe/2009/06/test-1.shtml) when I first wrote it.
-
+```sh
+git clone git@github.com:ianleon/QLCataline.git 
+cd QLCataline/QuickLookStephenProject
+xcodebuild -scheme QuickLookStephen build
+```
 
 ## Authors
 
