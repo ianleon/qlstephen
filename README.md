@@ -34,7 +34,6 @@ Special thanks to the following people for submitting patches over the years:
 * [Tony](https://github.com/Zearin)
 * [Nicholas Hutchinson](https://github.com/nickhutchinson)
 
-
 ## Contributing
 
 * Fork the project
