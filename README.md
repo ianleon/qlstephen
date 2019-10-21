@@ -1,4 +1,4 @@
-# QuicklookStephen
+# QuicklookStephen for Catalina
 
 QLStephen is a QuickLook plugin that lets you view plain text files without a file extension. Files like:
 
