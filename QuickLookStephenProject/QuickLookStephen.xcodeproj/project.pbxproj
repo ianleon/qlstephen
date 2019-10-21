@@ -25,7 +25,7 @@
 		AEF4F2780EDD58D400A55543 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "~/Library/Quicklook";
+			dstPath = $HOME/Library/Quicklook;
 			dstSubfolderSpec = 0;
 			files = (
 				AEF4F27A0EDD58F800A55543 /* QLStephen.qlgenerator in CopyFiles */,
@@ -157,6 +157,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* QuickLookStephen */;
